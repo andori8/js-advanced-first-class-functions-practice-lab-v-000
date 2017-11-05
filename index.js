@@ -30,3 +30,7 @@ const totalRevenue = function (array) {
     return driver.revenue + total;
   },0);
 };
+
+const averageRevenue = function (array) {
+  return totalRevenue(array) / array.length;
+};
